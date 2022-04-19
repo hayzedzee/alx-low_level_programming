@@ -4,7 +4,7 @@
  * print_diagonal - Draws a diagonal line using the \ character.
  * @n: The number of \ characters to be printed.
  */
-void print_diagonsl(int n)
+void print_diagonal(int n)
 {
 	int leng, space;
 
