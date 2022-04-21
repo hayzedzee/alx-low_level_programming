@@ -1,6 +1,5 @@
-#ifndef FILE_MAN
-#define FILE_MAN                                                                                                               
-                                                                                                                              
+#ifndef FILE_MAIN
+#define FILE_MAIN                                                                                                                                                                                                                                             
 #include <stdlib.h>                                                                                                            
                                                                                                                               
 int _putchar(char c);                                                                                                          
