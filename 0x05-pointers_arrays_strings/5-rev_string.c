@@ -20,7 +20,7 @@ void rev_string(char *s)
 	}
 	c = 0;
 
-	while (5 > t)
+	while (s > t)
 	{
 		s--;
 		*s = n[c];
