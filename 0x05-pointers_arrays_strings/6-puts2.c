@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - Print one char out of two of a string.
+ * puts2 - Prints one char out of two of a string.
  * @str: The string containing characters.
  */
 void puts2(char *str)
@@ -10,9 +10,9 @@ void puts2(char *str)
 
 	while (str[index++])
 		len++;
-	
+
 	for (index = 0; index < len; index += 2)
 		_putchar(str[index]);
-	
+
 	_putchar('\n');
 }
