@@ -1,32 +1,30 @@
-#include "main.h"
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
-/**
- * *_strcat - function commute srtings
- * @dest: param pointer to a char
- * @src: param pointer to a char
- * Return: return value of dest
- */
+char *_strcat(char *dest, char *src);
 
-char *_strcat(char *dest, char *src)
-{
-	int i;
-	int j;
+void print_number(int n);
 
-	i = 0;
-	j = 0;
+int _putchar(char c);
 
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
+void print_buffer(char *b, int size);
 
-	while (src[j] != '\0')
-	{
-		dest[i] = src[j];
-		j++;
-		i++;
-	}
+char *_strncat(char *dest, char *src, int n);
 
-	dest[i] = '\0';
-	return (dest);
-}
+char *_strncpy(char *dest, char *src, int n);
+
+int _strcmp(char *s1, char *s2);
+
+void reverse_array(int *a, int n);
+
+char *string_toupper(char *);
+
+char *cap_string(char *);
+
+char *leet(char *);
+
+char *rot13(char *);
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+#endif
