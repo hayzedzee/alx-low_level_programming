@@ -1,29 +1,18 @@
 #include "main.h"
 
 /**
- * rev_string - rev string
- * @s: string
+ * puts2 - Prints one char out of two of a string.
+ * @str: The string containing characters.
  */
-
-void rev_string(char *s)
+void puts2(char *str)
 {
-	char *t = s;
-	char n[1000];
-	short c = 0;
+	int index = 0, len = 0;
 
-	while (*s != '\0')
-	{
-		n[c] = *s;
-		s++;
-		c++;
+	while (str[index++])
+		len++;
 
-	}
-	c = 0;
+	for (index = 0; index < len; index += 2)
+		_putchar(str[index]);
 
-	while (s > t)
-	{
-		s--;
-		*s = n[c];
-		c++;
-	}
+	_putchar('\n');
 }
