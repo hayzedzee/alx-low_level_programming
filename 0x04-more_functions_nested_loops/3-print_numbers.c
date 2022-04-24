@@ -1,15 +1,13 @@
 #include "main.h"
 /**
- * print_mumbers - prints numbers 0-9
- *
- *
- * Return: void
- */
+  * print_numbers - prints numbers 0-9
+  *
+  *
+  * Return: void
+  */
 void print_numbers(void)
 {
 int i;
-
-i = 0;
 
 for (i = 0; i < 10; i++)
 {
